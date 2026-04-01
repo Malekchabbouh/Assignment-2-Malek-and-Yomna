@@ -72,7 +72,7 @@ pip install -r Streamlit_app/requirements.txt
 
 Run the app:
 streamlit run Streamlit_app/app.py
-
+or use url: https://emergencytriage.streamlit.app/
 ---
 
 ## Authors
