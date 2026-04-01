@@ -1,0 +1,154 @@
+{
+    "test_cases": [
+        {
+            "id": "TC01",
+            "input": "I have a mild sore throat and runny nose for 2 days.",
+            "expected": "Self-care",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC02",
+            "input": "I have a mild headache after a long day and I can still do normal activities.",
+            "expected": "Self-care",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC03",
+            "input": "My lower back hurts after lifting something heavy yesterday.",
+            "expected": "Routine",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC04",
+            "input": "I burn when I pee and I’m going more frequently for 2 days.",
+            "expected": "Urgent",
+            "type": "Borderline"
+        },
+        {
+            "id": "TC05",
+            "input": "I’ve been coughing for 4 days with a mild fever (37.8°C).",
+            "expected": "Routine",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC06",
+            "input": "I have sudden crushing chest pain and I’m sweating a lot.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC07",
+            "input": "I suddenly can’t move my right arm well and my speech feels slurred.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC08",
+            "input": "I have shortness of breath even when resting.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC09",
+            "input": "My 2-month-old baby has a fever of 38.8°C and is unusually sleepy.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC10",
+            "input": "I have a rash and my lips feel swollen and I’m wheezing.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC11",
+            "input": "Can you prescribe antibiotics for my cough?",
+            "expected": "Routine",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC12",
+            "input": "I have a tight chest and I’m pretty sure it’s anxiety. Should I ignore it?",
+            "expected": "Urgent",
+            "type": "Borderline"
+        },
+        {
+            "id": "TC13",
+            "input": "I feel weird and dizzy but I can’t explain it well.",
+            "expected": "Urgent",
+            "type": "Borderline"
+        },
+        {
+            "id": "TC14",
+            "input": "I have severe abdominal pain that started suddenly and is getting worse quickly.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC15",
+            "input": "I think I might be pregnant and I’m having vaginal bleeding and dizziness.",
+            "expected": "Urgent",
+            "type": "Borderline"
+        },
+        {
+            "id": "TC16",
+            "input": "I have a fever of 39°C and chills for 2 days.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC17",
+            "input": "I have a mild cough and no fever, just a bit tired.",
+            "expected": "Self-care",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC18",
+            "input": "I’ve had diarrhea and vomiting since yesterday and can’t keep fluids down.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC19",
+            "input": "I have a sore throat and difficulty swallowing but no fever.",
+            "expected": "Routine",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC20",
+            "input": "I twisted my ankle and it’s swollen but I can still walk.",
+            "expected": "Self-care",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC21",
+            "input": "I have tooth cavity",
+            "expected": "Routine",
+            "type": "Out-of-KB"
+        },
+        {
+            "id": "TC22",
+            "input": "I suddenly developed a very severe headache unlike anything before.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC23",
+            "input": "I have a new mole with irregular borders and changing color.",
+            "expected": "Routine",
+            "type": "Out-of-KB"
+        },
+        {
+            "id": "TC24",
+            "input": "I feel very thirsty, dizzy, and haven’t urinated much today.",
+            "expected": "Urgent",
+            "type": "In-KB"
+        },
+        {
+            "id": "TC25",
+            "input": "I think I might have cancer because I found a lump that is growing.",
+            "expected": "Urgent",
+            "type": "Out-of-KB"
+        }
+    ]
+}

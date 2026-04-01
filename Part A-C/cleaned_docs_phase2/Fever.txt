@@ -1,0 +1,30 @@
+TOPIC: Fever
+SOURCE: MedlinePlus
+URL: https://medlineplus.gov/fever.html
+CATEGORY: Common Symptom
+DATE: 2025-07-27
+
+SECTION TITLE: Summary
+A fever is a body temperature that is higher than normal. A normal temperature can vary from person to person, but it is usually around 98.6 °F (37 °C). A fever is not a disease. It is usually a sign that your body is trying to fight an illness or infection. Infections cause most fevers. You get a fever because your body is trying to kill the virus or bacteria that caused the infection. Most of those bacteria and viruses do well when your body is at your normal temperature. But if you have a fever, it is harder for them to survive. Fever also activates your body's immune system. Other causes of fevers include: Medicines, including some antibiotics , blood pressure medicines , and anti-seizure medicines Heat illness Cancers Autoimmune diseases Some childhood vaccines Treatment depends on the cause of your fever. If the fever is very high, your health care provider may recommend taking an over-the-counter medicine such as acetaminophen or ibuprofen. Adults can also take aspirin, but children with fevers should not take aspirin. It is also important to drink enough liquids, to prevent dehydration .
+
+SECTION TITLE: Start Here
+Fever (American Academy of Family Physicians) Fever (Mayo Foundation for Medical Education and Research) Also in Spanish Fever (High Temperature) In Kids (Nemours Foundation) Also in Spanish
+
+SECTION TITLE: Treatments and Therapies
+Fever: First Aid (Mayo Foundation for Medical Education and Research) Also in Spanish Thermometers: Understand the Options (Mayo Foundation for Medical Education and Research) Also in Spanish
+
+SECTION TITLE: Specifics
+Cryopyrin-Associated Autoinflammatory Syndromes (CAPS) (American College of Rheumatology) Also in Spanish Familial Mediterranean Fever (Mayo Foundation for Medical Education and Research) Also in Spanish Periodic Fever, Aphthous Stomatitis, Pharyngitis, Adenitis Syndrome (PFAPA) (Juvenile) (American College of Rheumatology) Also in Spanish
+
+SECTION TITLE: Genetics
+Cryopyrin-associated periodic syndromes: MedlinePlus Genetics (National Library of Medicine) Familial Mediterranean fever: MedlinePlus Genetics (National Library of Medicine) Mevalonate kinase deficiency: MedlinePlus Genetics (National Library of Medicine) Nakajo-Nishimura syndrome: MedlinePlus Genetics (National Library of Medicine) Tumor necrosis factor receptor-associated periodic syndrome: MedlinePlus Genetics (National Library of Medicine) Yao syndrome: MedlinePlus Genetics (National Library of Medicine)
+
+SECTION TITLE: Journal Articles References and abstracts from MEDLINE/PubMed (National Library of Medicine)
+Article: The household economic burden of human-only and zoonotic malaria, compared to... Article: Priorities for the development of a new rapid diagnostic test for... Article: Diagnostic Value of Neutrophil CD64 in Differentiating Scrub Typhus From Febrile... Fever -- see more articles
+
+SECTION TITLE: Children
+Acetaminophen Overdose Is Serious and It Can Happen More Easily Than You Might Think (Mayo Foundation for Medical Education and Research) Also in Spanish Febrile Seizures (National Institute of Neurological Disorders and Stroke) Also in Spanish Fever (High Temperature) In Kids (Nemours Foundation) Also in Spanish How to Take a Rectal Temperature (Nemours Foundation) Also in Spanish How to Take an Axillary (Armpit) Temperature (Nemours Foundation) Also in Spanish How to Take an Oral Temperature (Nemours Foundation) Also in Spanish Taking Your Child's Temperature (Nemours Foundation) Also in Spanish
+
+SECTION TITLE: Patient Handouts
+Familial Mediterranean fever (Medical Encyclopedia) Also in Spanish Fever (Medical Encyclopedia) Also in Spanish When your baby or infant has a fever (Medical Encyclopedia) Also in Spanish
+

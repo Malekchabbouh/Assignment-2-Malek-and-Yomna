@@ -1,0 +1,45 @@
+TOPIC: Deep Vein Thrombosis (DVT)
+SOURCE: CDC
+URL: https://www.cdc.gov/blood-clots/about/
+CATEGORY: Edge Case
+DATE: 2025-03-05
+
+SECTION TITLE: Key points
+Venous thromboembolism (VTE) includes both deep vein thrombosis (DVT) and pulmonary embolism (PE). DVT occurs when a blood clot develops in the deep veins, most commonly in the legs. It requires prompt medical attention. PE occurs when a part of the blood clot breaks off and travels to the lungs. It requires immediate medical attention. DVT and PE are serious but often preventable conditions.
+
+SECTION TITLE: Overview
+Venous thromboembolism (VTE) is a term referring to blood clots in the veins. VTE includes deep vein thrombosis (DVT) and pulmonary embolism (PE). DVT occurs when a blood clot develops in a deep vein, most commonly in the lower leg, thigh, or pelvis, but can also occur in the arm. PE occurs when a part of the clot breaks off and travels to the lungs, which can be life-threatening. DVT and PE are often underdiagnosed and are serious but often preventable medical conditions. It is important to know about VTE because it can happen to anybody and can cause serious illness, disability, and in some cases, death. The good news is that VTE is often preventable and treatable.
+
+SECTION TITLE: Know the signs and symptoms. Know your risk. Seek care.
+Everybody should know the signs and symptoms of DVT/PE and their risk for DVT/PE. They should talk to their healthcare provider about their risk and seek care immediately if they have any signs or symptoms of DVT/PE.
+
+SECTION TITLE: DVT
+About half of people with DVT have no symptoms at all. The following are the most common signs or symptoms of DVT that occur in the affected leg or arm: Swelling Pain or tenderness Warmth Redness or discoloration If you have any of these signs or symptoms, you should see your doctor as soon as possible.
+
+SECTION TITLE: PE
+You can have a PE without any symptoms of a DVT. Signs and symptoms of PE can include: Difficulty breathing Faster than normal or irregular heartbeat Chest pain or discomfort, which usually worsens with a deep breath or coughing Cough or coughing up blood Very low blood pressure, lightheadedness, or fainting If you have any of these signs or symptoms, you should seek medical help immediately.
+
+SECTION TITLE: Risk factors
+Almost anyone can have a DVT/PE. However, certain factors can increase the chance of having this condition. Factors that increase the risk of developing DVT/PE include those associated with an Injury to a vein Slow blood flow caused by limited movement Certain chronic medical illnesses, older age, family history, and other health factors Increased levels of estrogen, a hormone that plays a key role in a female's reproductive health More detailed information about specific factors that can increase a person's risk for a blood clot is included on the Risk Factors for Blood Clots page.
+
+SECTION TITLE: Complications
+The most serious complication of DVT happens when a part of the clot breaks off and travels through the bloodstream to the lungs, causing a blockage called PE. If the clot is small, and with appropriate treatment, people can recover from PE. However, there could be some damage to the lungs. Chronic thromboembolic pulmonary hypertension is a complication that can happen after a PE with a large clot. It can stop blood from reaching the lungs and can be fatal. In addition, one-third to one-half of people who have a DVT will have a long-term complication, called post-thrombotic syndrome (PTS). PTS is caused by the damage the clot does to the valves in the vein. People with PTS have symptoms such as swelling, pain, discoloration, and in severe cases, scaling or ulcers in the affected part of the body. In some cases, the symptoms can be so severe that a person becomes disabled. For some people, DVT and PE can become a chronic illness; about 30% of people who have had a DVT or PE are at risk for another episode.
+
+SECTION TITLE: Prevention
+The following tips can help prevent DVT/PE: Move around as soon as possible after having been confined to bed, such as after surgery, illness, or injury. If you’re at risk for DVT/PE, talk to your doctor about: Graduated compression stockings (sometimes called "medical compression stockings") Medication (anticoagulants) to prevent DVT/PE. When sitting for long periods of time, such as when traveling for more than 4 hours: Get up and walk around every 1 to 2 hours. Wear loose-fitting clothes. Exercise your legs while you're sitting by: Raising and lowering your heels while keeping your toes on the floor Raising and lowering your toes while keeping your heels on the floor Tightening and releasing your leg muscles You can also reduce your risk by maintaining a healthy weight, avoiding a sedentary lifestyle, and following your doctor’s recommendations based on your individual risk factors.
+
+SECTION TITLE: Testing and diagnosis
+The diagnosis of DVT or PE requires special tests that can only be performed by a doctor. That is why it is important for you to seek medical care if you experience any of the signs or symptoms of DVT or PE.
+
+SECTION TITLE: DVT
+Medication is used to treat DVT. Compression stockings (also called graduated compression stockings) are sometimes recommended to prevent DVT and relieve pain and swelling. These might need to be worn for 2 years or more after having DVT. In severe cases, the clot might need to be removed surgically.
+
+SECTION TITLE: PE
+Immediate medical attention is necessary to treat PE. In cases of severe, life-threatening PE, there are medicines called thrombolytics that can dissolve the clot. Other medicines, called anticoagulants, may be prescribed to prevent more clots from forming. Some people may need to be on medication long-term to prevent future blood clots.
+
+SECTION TITLE: Did you know?
+DVT does not cause heart attack or stroke. There are two main types of blood clots. How a clot affects the body depends on the type and location of the clot: A blood clot in a deep vein of the leg, pelvis, and sometimes arm, is called deep vein thrombosis (DVT). This type of blood clot does not cause heart attack or stroke. A blood clot in an artery, usually in the heart or brain, is called arterial thrombosis. This type of blood clot can cause heart attack or stroke. Both types of clots can cause serious health problems, but the causes and steps you can take to protect yourself are different. To learn more about arterial thrombosis, visit CDC's information about heart disease and stroke prevention .
+
+SECTION TITLE: Clinical practice guidelines for venous thromboembolism
+The American Society of Hematology (ASH) recognized the need for a comprehensive set of guidelines on the treatment of VTE to help the medical community better manage this serious condition. In partnership with the McMaster University GRADE Centre , ASH brought together experts to address this challenge, including hematologists, other clinicians, guideline development specialists, and patient representatives. In November 2018, ASH announced the results of their collective efforts — the 2018 ASH Clinical Practice Guidelines on Venous Thromboembolism .
+

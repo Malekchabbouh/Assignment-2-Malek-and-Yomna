@@ -1,0 +1,581 @@
+ID: TC01
+Input: I have a mild sore throat and runny nose for 2 days.
+Expected: Self-care
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8581
+  [2] score=0.8733
+  [3] score=0.9209
+Model Output:
+Urgency: Self-care
+
+Reasoning: The patient has a mild sore throat and runny nose, which are common symptoms that can be managed at home. According to [1], most sore throats will get better on their own within one week. There are no red flags or risk features present in the provided context that would indicate a need for urgent evaluation.
+
+Recommendation: The patient can be managed at home with monitoring and basic care.
+
+Next steps:
+• Monitor symptoms and seek medical attention if they worsen or persist beyond a few days [1].
+• Use over-the-counter pain relievers and throat lozenges to help manage symptoms [1].
+• Practice good hygiene, such as frequent handwashing and avoiding close contact with others, to prevent the spread of illness [1].
+
+Sources:
+[1] CDC, "Sore Throat," section: "Treatment," 2024-04-17. [Online]. Available: https://www.cdc.gov/sore-throat/about/index.html
+----------------------------------------------------------------------
+
+ID: TC02
+Input: I have a mild headache after a long day and I can still do normal activities.
+Expected: Self-care
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8874
+  [2] score=0.8881
+  [3] score=0.9797
+Model Output:
+Urgency: Self-care
+Reasoning: The patient reports a mild headache after a long day, which is a common symptom that can be managed at home. Migraines, which are a type of headache disorder, can be episodic and often affect individuals between the ages of 35 and 45 years, but the patient's age and symptoms do not indicate a high risk for this condition [1].
+Next steps:
+- The patient can manage their symptoms with over-the-counter pain relief medication and rest.
+- Monitor their symptoms and seek medical attention if they worsen or persist.
+
+Sources:
+[1] WHO, "Headache," section: "Migraine," 2025-10-24. [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+----------------------------------------------------------------------
+
+ID: TC03
+Input: My lower back hurts after lifting something heavy yesterday.
+Expected: Routine
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=1.0088
+  [2] score=1.0511
+  [3] score=1.1211
+Model Output:
+Urgency: Routine
+
+Reasoning: The user reports lower back pain after lifting something heavy yesterday, which is a common symptom of a strain or sprain. However, there are no red flags present, such as severe pain, worsening symptoms, or high fever, which would indicate a more urgent evaluation [1]. The user can be managed with non-urgent evaluation, such as a clinic or scheduled appointment.
+
+Recommendation: Outpatient follow-up
+
+Next steps:
+• The user should seek medical attention at a clinic or schedule an appointment to have their lower back pain evaluated.
+• The healthcare provider will assess the user's symptoms and provide guidance on self-care or further treatment.
+
+Sources:
+[1] NHS, "Sprains," section: "Symptoms of a sprain or strain," 2024-04-23. [Online]. Available: https://www.nhs.uk/conditions/sprains-and-strains/
+----------------------------------------------------------------------
+
+ID: TC04
+Input: I burn when I pee and I’m going more frequently for 2 days.
+Expected: Urgent
+Type: Borderline
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.9146
+  [2] score=1.0583
+  [3] score=1.1109
+Model Output:
+Urgency: Urgent
+Reasoning: The patient's symptoms of burning when urinating and increased frequency for 2 days may indicate a urinary tract infection or other underlying condition that requires prompt evaluation. This is a red flag for potential dehydration [1]. A pharmacist can help with dehydration, but the patient's symptoms suggest a more urgent need for medical evaluation [2].
+Recommendation: Urgent evaluation
+Next steps:
+• The patient should be seen by a clinician as soon as possible for further evaluation and treatment.
+• The patient should be asked about their medical history, including any underlying conditions that may be contributing to their symptoms.
+• The patient should be assessed for signs of dehydration and provided with guidance on how to manage their symptoms.
+
+Sources:
+[1] NHS, "Dehydration," section: "Causes of dehydration," 2022-11-14. [Online]. Available: https://www.nhs.uk/conditions/dehydration/
+[2] NHS, "Vomiting and Diarrhea," section: "A pharmacist can help with diarrhoea and vomiting," 2023-12-21. [Online]. Available: https://www.nhs.uk/conditions/diarrhoea-and-vomiting/
+----------------------------------------------------------------------
+
+ID: TC05
+Input: I’ve been coughing for 4 days with a mild fever (37.8°C).
+Expected: Routine
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.9559
+  [2] score=0.9746
+  [3] score=0.9771
+Model Output:
+Urgency: Routine
+Reasoning: The patient has been coughing for 4 days with a mild fever (37.8°C), which is a persistent symptom but not severe enough to warrant urgent evaluation. According to the NHS guidelines [1], a persistent cough for more than 3 weeks should be seen by a GP, but since the patient has a mild fever, it can be managed with non-urgent evaluation.
+Recommendation: Outpatient follow-up
+Next steps:
+• Schedule an appointment with a GP to discuss the persistent cough and mild fever.
+• Follow the NHS guidelines for managing a cough [1].
+
+Sources:
+[1] NHS, "Cough," section: "Non-urgent advice: See a GP if:," 2023-12-08. [Online]. Available: https://www.nhs.uk/symptoms/cough/
+----------------------------------------------------------------------
+
+ID: TC06
+Input: I have sudden crushing chest pain and I’m sweating a lot.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8726
+  [2] score=0.8808
+  [3] score=0.9669
+Model Output:
+Urgency: Urgent
+
+Reasoning: The patient is experiencing sudden crushing chest pain, which is a red flag for a potential heart attack or other serious condition [1]. The presence of sweating also increases the concern for a serious underlying condition.
+
+Recommendation: Admit the patient to the emergency department for urgent evaluation.
+
+Next steps:
+- Perform a thorough physical examination and take a detailed medical history.
+- Order electrocardiogram (ECG) and troponin levels to rule out myocardial infarction.
+- Consider ordering a chest X-ray and other diagnostic tests as needed.
+
+Sources:
+[1] MedlinePlus, "Chest Pain," section: "When to Contact a Medical Professional," 2024-05-08. [Online]. Available: https://medlineplus.gov/ency/article/003079.htm
+----------------------------------------------------------------------
+
+ID: TC07
+Input: I suddenly can’t move my right arm well and my speech feels slurred.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=1.0543
+  [2] score=1.0932
+  [3] score=1.1878
+Model Output:
+Urgency: Urgent
+Reasoning: The patient is experiencing sudden numbness or weakness in the arm, which is a red flag for a potential stroke or neurological emergency [1]. Additionally, the patient's speech feels slurred, which is another concerning symptom. Given the severity and sudden onset of these symptoms, immediate evaluation is necessary.
+Recommendation: Urgent evaluation in the ER.
+
+Next steps:
+• Call 999 or get help from 111 online immediately [2].
+• Do not drive to A&E.
+
+Sources:
+[1] CDC, "Stroke Symptoms," section: "What are the signs of stroke in men and women?," 2024-10-24. [Online]. Available: https://www.cdc.gov/stroke/signs-symptoms/
+[2] NHS, "Sprains," section: "Urgent advice: Get help from NHS 111 if:," 2024-04-23. [Online]. Available: https://www.nhs.uk/conditions/sprains-and-strains/
+----------------------------------------------------------------------
+
+ID: TC08
+Input: I have shortness of breath even when resting.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.4604
+  [2] score=0.6133
+  [3] score=0.7467
+Model Output:
+Urgency: Urgent
+Reasoning: Shortness of breath even when resting is a concerning symptom that requires immediate evaluation to rule out potential serious underlying conditions, such as chronic obstructive pulmonary disease (COPD) or heart failure [1]. It is essential to determine the cause of the shortness of breath to provide appropriate treatment and prevent complications [2].
+Recommendation: Urgent evaluation in the ER.
+
+Next steps:
+• The patient should be evaluated in the ER to assess the severity of the shortness of breath and determine the underlying cause [2].
+• The patient may require admission for further treatment and monitoring.
+
+Sources:
+[1] NHS, "Shortness of Breath," section: "Causes of shortness of breath," 2024-01-30. [Online]. Available: https://www.nhs.uk/conditions/shortness-of-breath/
+[2] NHS, "Shortness of Breath," section: "Shortness of breath," 2024-01-30. [Online]. Available: https://www.nhs.uk/conditions/shortness-of-breath/
+----------------------------------------------------------------------
+
+ID: TC09
+Input: My 2-month-old baby has a fever of 38.8°C and is unusually sleepy.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8461
+  [2] score=0.8472
+  [3] score=0.9599
+Model Output:
+Urgency: Urgent
+Reasoning: The baby is under 3 months old with a temperature of 38.8°C, which is above the normal range [1]. According to the guidelines, this is a red flag that requires urgent attention [2]. The baby's unusual sleepiness may be a sign of a more serious underlying condition.
+Recommendation: Admit the baby to the ER for further evaluation.
+Next steps:
+- Perform a thorough physical examination and vital sign assessment.
+- Order laboratory tests, such as a complete blood count and blood culture, to rule out infection.
+- Consult with a pediatrician for further guidance.
+
+Sources:
+[1] NHS, "Fever in Infants," section: "Checking a high temperature," 2024-01-03. [Online]. Available: https://www.nhs.uk/conditions/fever-in-children/
+[2] NHS, "Fever in Infants," section: "Urgent advice: Call 111 or your GP surgery now if your child:," 2024-01-03. [Online]. Available: https://www.nhs.uk/conditions/fever-in-children/
+----------------------------------------------------------------------
+
+ID: TC10
+Input: I have a rash and my lips feel swollen and I’m wheezing.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=1.1303
+  [2] score=1.1563
+  [3] score=1.1910
+Model Output:
+Urgency: Urgent
+Reasoning: The presence of a rash, swollen lips, and wheezing suggests a potential allergic reaction or anaphylaxis, which can progress rapidly [1]. Given the symptoms, it's essential to err on the side of caution and prioritize immediate evaluation [2].
+Next steps:
+• Call for an ambulance or go to the nearest A&E immediately.
+• Inform the medical team about the symptoms and any potential allergens that may have triggered the reaction.
+• Administer epinephrine (if available) according to the patient's medical history and the situation.
+
+Sources:
+[1] MedlinePlus, "Allergic Reaction (Anaphylaxis)," section: "Symptoms," 2024-03-31. [Online]. Available: https://medlineplus.gov/ency/article/000844.htm
+[2] NHS, "Meningitis," section: "When to get medical help," 2026-03-18. [Online]. Available: https://www.nhs.uk/conditions/meningitis/
+----------------------------------------------------------------------
+
+ID: TC11
+Input: Can you prescribe antibiotics for my cough?
+Expected: Routine
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.4198
+  [2] score=0.8873
+  [3] score=1.0193
+Model Output:
+Urgency: Self-care
+
+Reasoning: The user is experiencing a cough, which is a common and usually self-limiting condition. Antibiotics are not normally prescribed for coughs, and over-the-counter cough and cold medicines can be used to manage symptoms [1]. According to the CDC, most sore throats will get better on their own within one week, and antibiotics will not help if a virus causes the sore throat [2].
+
+Recommendation: Manage at home.
+
+Next steps:
+• Follow the recommended dosage and instructions for over-the-counter cough and cold medicines [3].
+• Monitor symptoms and seek medical attention if they worsen or persist.
+
+Sources:
+[1] NHS, "Cough," section: "Important," 2023-12-08. [Online]. Available: https://www.nhs.uk/symptoms/cough/
+[2] CDC, "Sore Throat," section: "Treatment," 2024-04-17. [Online]. Available: https://www.cdc.gov/sore-throat/about/index.html
+[3] CDC, "Sore Throat," section: "Over-the-counter medicine and children," 2024-04-17. [Online]. Available: https://www.cdc.gov/sore-throat/about/index.html
+----------------------------------------------------------------------
+
+ID: TC12
+Input: I have a tight chest and I’m pretty sure it’s anxiety. Should I ignore it?
+Expected: Urgent
+Type: Borderline
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.9308
+  [2] score=0.9440
+  [3] score=0.9479
+Model Output:
+Urgency: Urgent
+Reasoning: Chest pain, even if attributed to anxiety, requires evaluation to rule out other potential causes [1]. The patient should seek immediate attention, as chest pain can be a symptom of a serious condition, such as a heart attack or pulmonary embolism [2].
+Recommendation: Urgent evaluation in the ER.
+
+Next steps:
+• Call 111 or get help from 111 online for immediate advice [2].
+• Remain in the ER for further evaluation and assessment.
+
+Sources:
+[1] MedlinePlus, "Chest Pain," section: "Chest pain," 2024-05-08. [Online]. Available: https://medlineplus.gov/ency/article/003079.htm
+[2] NHS, "Shortness of Breath," section: "Urgent advice: Contact NHS 111 if:," 2024-01-30. [Online]. Available: https://www.nhs.uk/conditions/shortness-of-breath/
+----------------------------------------------------------------------
+
+ID: TC13
+Input: I feel weird and dizzy but I can’t explain it well.
+Expected: Urgent
+Type: Borderline
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=1.0093
+  [2] score=1.0273
+  [3] score=1.0991
+Model Output:
+Urgency: Urgent
+
+Reasoning: The user is experiencing dizziness and feeling weird, which are symptoms that require immediate attention. According to [1], if someone is experiencing sudden difficulty breathing, chest feels tight or heavy, or pain that spreads to arms, back, neck, and jaw, they should call 999 or go to A&E immediately. Although the user's symptoms are not explicitly mentioned in [1], the overall context suggests that urgent evaluation is necessary.
+
+Recommendation: Urgent evaluation
+
+Next steps:
+• Call 999 or go to A&E immediately
+• Provide the user's medical history and any relevant information to the emergency services
+
+Sources:
+[1] NHS, "Shortness of Breath," section: "Immediate action required: Call 999 or go to A&E immediately if:," 2024-01-30. [Online]. Available: https://www.nhs.uk/conditions/shortness-of-breath/
+----------------------------------------------------------------------
+
+ID: TC14
+Input: I have severe abdominal pain that started suddenly and is getting worse quickly.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.6670
+  [2] score=0.9977
+  [3] score=1.2059
+Model Output:
+Urgency: Urgent
+
+Reasoning: The patient reports severe abdominal pain that started suddenly and is getting worse quickly, which are red flags for a serious condition. According to the provided context, this patient should get medical help immediately if they have abdominal pain that is sudden and sharp [1].
+
+Recommendation: Admit for urgent evaluation.
+
+Next steps:
+• Call for a stat CT scan to rule out any life-threatening conditions [2].
+• Administer pain medication as needed to manage the patient's symptoms.
+
+Sources:
+[1] MedlinePlus, "Abdominal Pain," section: "Summary," 2025-09-23. [Online]. Available: https://medlineplus.gov/abdominalpain.html
+[2] MedlinePlus, "Abdominal Pain," section: "Diagnosis and Tests," 2025-09-23. [Online]. Available: https://medlineplus.gov/abdominalpain.html
+----------------------------------------------------------------------
+
+ID: TC15
+Input: I think I might be pregnant and I’m having vaginal bleeding and dizziness.
+Expected: Urgent
+Type: Borderline
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=1.0219
+  [2] score=1.0347
+  [3] score=1.0409
+Model Output:
+Urgency: Urgent
+Reasoning: The patient is experiencing vaginal bleeding and dizziness, which are red flags for potential complications in pregnancy, such as preeclampsia [1]. Dizziness can also be a sign of dehydration, which is a serious condition that requires urgent treatment [2]. Given the combination of these symptoms, it is essential to evaluate the patient promptly.
+Recommendation: Admit for urgent evaluation.
+Next steps:
+• Perform a thorough medical evaluation to assess the patient's blood pressure, urine protein levels, and overall health.
+• Consider ordering diagnostic tests, such as a urine analysis and blood work, to rule out preeclampsia and other complications.
+• Consult with an obstetrician or a high-risk pregnancy specialist for further guidance.
+
+Sources:
+[1] MedlinePlus, "High Blood Pressure in Pregnancy," section: "What are the types of high blood pressure in pregnancy?," 2024-05-29. [Online]. Available: https://medlineplus.gov/highbloodpressureinpregnancy.html
+[2] NHS, "Dehydration," section: "Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 if:," 2022-11-14. [Online]. Available: https://www.nhs.uk/conditions/dehydration/
+----------------------------------------------------------------------
+
+ID: TC16
+Input: I have a fever of 39°C and chills for 2 days.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8281
+  [2] score=0.8832
+  [3] score=0.9024
+Model Output:
+Urgency: Urgent
+Reasoning: The patient has a fever of 39°C, which is higher than normal, and has been experiencing chills for 2 days, which may be a sign of an underlying infection [1]. Additionally, the patient's temperature has lasted for 5 days or more, which is a red flag [1]. As the patient is dehydrated and not their usual self, it is essential to provide immediate or same-day evaluation in the ER to rule out any serious conditions [2].
+Recommendation: The patient should receive urgent evaluation in the ER to determine the cause of their fever and to provide appropriate treatment.
+
+Next steps:
+• The patient should be taken to the ER for immediate evaluation.
+• The patient's temperature and vital signs should be closely monitored.
+• Further testing, such as blood cultures and imaging studies, may be necessary to determine the cause of the fever.
+
+Sources:
+[1] NHS, "Fever in Infants," section: "Urgent advice: Call 111 or your GP surgery now if your child:," 2024-01-03. [Online]. Available: https://www.nhs.uk/conditions/fever-in-children/
+[2] MedlinePlus, "Fever," section: "Summary," 2025-07-27. [Online]. Available: https://medlineplus.gov/fever.html
+----------------------------------------------------------------------
+
+ID: TC17
+Input: I have a mild cough and no fever, just a bit tired.
+Expected: Self-care
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8097
+  [2] score=0.9287
+  [3] score=0.9599
+Model Output:
+Urgency: Self-care
+
+Reasoning: The patient has a mild cough and no fever, which is consistent with the advice provided in [1]. The patient is advised to rest, drink plenty of fluids, and try to stay at home and avoid contact with other people if they have a high temperature or do not feel well enough to do their normal activities.
+
+Recommendation: The patient can be managed at home with self-care.
+
+Next steps:
+• Rest and drink plenty of fluids [1]
+• Try to stay at home and avoid contact with other people if they have a high temperature or do not feel well enough to do their normal activities [1]
+• Consider taking paracetamol or ibuprofen to treat any pain, but always check the leaflet or speak to a pharmacist before taking them [1]
+
+Sources:
+[1] NHS, "Cough," section: "How you can treat a cough yourself," 2023-12-08. [Online]. Available: https://www.nhs.uk/symptoms/cough/
+----------------------------------------------------------------------
+
+ID: TC18
+Input: I’ve had diarrhea and vomiting since yesterday and can’t keep fluids down.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.7173
+  [2] score=0.7300
+  [3] score=0.8057
+Model Output:
+Urgency: Urgent
+Reasoning: The patient has been experiencing diarrhea and vomiting since yesterday, which can lead to dehydration [1]. Since the patient is unable to keep fluids down, it is essential to provide urgent evaluation to prevent severe dehydration [2].
+Recommendation: Urgent evaluation to assess the severity of dehydration and provide necessary treatment.
+Next steps:
+• Administer intravenous fluids to replenish lost electrolytes and fluids [2].
+• Monitor vital signs and electrolyte levels closely.
+
+Sources:
+[1] NHS, "Vomiting and Diarrhea," section: "How to treat diarrhoea and vomiting yourself," 2023-12-21. [Online]. Available: https://www.nhs.uk/conditions/diarrhoea-and-vomiting/
+[2] NHS, "Dehydration," section: "A pharmacist can help with dehydration," 2022-11-14. [Online]. Available: https://www.nhs.uk/conditions/dehydration/
+----------------------------------------------------------------------
+
+ID: TC19
+Input: I have a sore throat and difficulty swallowing but no fever.
+Expected: Routine
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.6606
+  [2] score=0.7156
+  [3] score=0.7799
+Model Output:
+Urgency: Urgent
+Reasoning: The patient is experiencing difficulty swallowing, which is a concerning symptom that may indicate a bacterial infection such as strep throat [1]. Although there is no fever, the presence of difficulty swallowing warrants urgent evaluation to rule out a serious condition [2].
+Recommendation: Urgent evaluation in the ER.
+
+Next steps:
+- The patient should be evaluated in the ER to determine the cause of the sore throat and difficulty swallowing.
+- If the patient is diagnosed with strep throat, they may require antibiotics and close follow-up.
+- If the patient is diagnosed with a viral infection, they may be managed with supportive care and follow-up with their primary care provider.
+
+Sources:
+[1] CDC, "Sore Throat," section: "Signs and symptoms," 2024-04-17. [Online]. Available: https://www.cdc.gov/sore-throat/about/index.html
+[2] CDC, "Sore Throat," section: "When to seek medical care," 2024-04-17. [Online]. Available: https://www.cdc.gov/sore-throat/about/index.html
+----------------------------------------------------------------------
+
+ID: TC20
+Input: I twisted my ankle and it’s swollen but I can still walk.
+Expected:  Self-care
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8180
+  [2] score=0.9899
+  [3] score=1.0293
+Model Output:
+Urgency: Self-care
+
+Reasoning: The patient has twisted their ankle, which is swollen, but they can still walk. According to [1], for the first 2-3 days after a sprain or strain, PRICE therapy is recommended to help bring down swelling and support the injury. The patient's symptoms are consistent with a sprain or strain, as described in [2].
+
+Recommendation: The patient can be managed at home with PRICE therapy and monitoring.
+
+Next steps:
+• Follow the PRICE therapy guidelines [1] to help manage the injury.
+• Monitor the ankle for worsening symptoms or signs of infection.
+• Consider seeking medical attention if the symptoms worsen or if there are signs of infection.
+
+Sources:
+[1] NHS, "Sprains," section: "How to treat sprains and strains yourself," 2024-04-23. [Online]. Available: https://www.nhs.uk/conditions/sprains-and-strains/
+[2] NHS, "Sprains," section: "Symptoms of a sprain or strain," 2024-04-23. [Online]. Available: https://www.nhs.uk/conditions/sprains-and-strains/
+----------------------------------------------------------------------
+
+ID: TC21
+Input: I have tooth cavity
+Expected: Routine
+Type: Out-of-KB
+Mode: fallback_judgment
+Retrieved scores: None
+Model Output:
+Urgency: Routine
+
+Reasoning:
+I don't have enough information about this in my knowledge base. However, a tooth cavity is generally a common dental issue that can be managed with routine care. 
+
+Recommendation:
+Schedule a dental appointment for evaluation and treatment.
+
+Next steps:
+- Contact a dentist for an appointment.
+- Continue to maintain good oral hygiene practices.
+- Consider over-the-counter pain relief if experiencing discomfort.
+----------------------------------------------------------------------
+
+ID: TC22
+Input: I suddenly developed a very severe headache unlike anything before.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.8684
+  [2] score=0.8971
+  [3] score=0.9492
+Model Output:
+Urgency: Urgent
+
+Reasoning: The patient reports a sudden onset of a severe headache, which is a red flag for potential serious conditions such as stroke or other neurological emergencies [1]. The patient's description of the headache as "unlike anything before" suggests that it may be a new or unusual symptom, warranting urgent evaluation [2].
+
+Recommendation: Urgent evaluation in the ER.
+
+Next steps:
+- The patient should be immediately evaluated by a healthcare provider to rule out any serious underlying conditions.
+- The patient's medical history, including any previous headaches, should be reviewed to help determine the cause of the headache.
+
+Sources:
+[1] CDC, "Stroke Symptoms," section: "What are the signs of stroke in men and women?," 2024-10-24. [Online]. Available: https://www.cdc.gov/stroke/signs-symptoms/
+[2] WHO, "Headache," section: "Migraine," 2025-10-24. [Online]. Available: https://www.who.int/news-room/fact-sheets/detail/headache-disorders
+----------------------------------------------------------------------
+
+ID: TC23
+Input: I have a new mole with irregular borders and changing color.
+Expected: Routine
+Type: Out-of-KB
+Mode: fallback_judgment
+Retrieved scores: None
+Model Output:
+Urgency: Urgent
+
+Reasoning: This symptom could potentially indicate skin cancer, which requires prompt evaluation. I don't have enough information about this in my knowledge base. A new mole with irregular borders and changing color is a concerning sign that warrants further investigation.
+
+Recommendation: Schedule an appointment with a dermatologist for a skin examination.
+
+Next steps:
+• Schedule an appointment with a dermatologist as soon as possible.
+• Keep a record of any changes in the mole's appearance.
+• Avoid self-treatment or attempting to remove the mole.
+
+Sources: None
+----------------------------------------------------------------------
+
+ID: TC24
+Input: I feel very thirsty, dizzy, and haven’t urinated much today.
+Expected: Urgent
+Type: In-KB
+Mode: grounded_rag
+Retrieved scores:
+  [1] score=0.7559
+  [2] score=0.7919
+  [3] score=0.8087
+Model Output:
+Urgency: Urgent
+Reasoning: You're feeling very thirsty, dizzy, and haven't urinated much today, which are signs of dehydration [1]. Dehydration can be a serious condition, especially if not treated promptly [1].
+Recommendation: Urgent evaluation
+
+Next steps:
+- Seek immediate medical attention from the ER nurse or a healthcare professional.
+- Provide more information about your symptoms and medical history to the healthcare professional.
+
+Sources:
+[1] NHS, "Dehydration," section: "Urgent advice: Ask for an urgent GP appointment or get help from NHS 111 if:," 2022-11-14. [Online]. Available: https://www.nhs.uk/conditions/dehydration/
+----------------------------------------------------------------------
+
+ID: TC25
+Input: I think I might have cancer because I found a lump that is growing.
+Expected: Urgent
+Type: Out-of-KB
+Mode: fallback_judgment
+Retrieved scores: None
+Model Output:
+Urgency: Urgent
+
+Reasoning: The patient reports finding a lump that is growing, which could be a sign of a serious underlying condition. I don't have enough information about this in my knowledge base. As a precautionary measure, I am classifying this as Urgent due to the potential severity of the symptom.
+
+Recommendation: Review by a healthcare provider as soon as possible.
+
+Next steps:
+• Schedule an appointment with a primary care physician or a specialist for further evaluation.
+• Bring any relevant medical records or test results to the appointment.
+• Be prepared to discuss the lump and any other symptoms you are experiencing.
+
+Sources: None
+----------------------------------------------------------------------
+

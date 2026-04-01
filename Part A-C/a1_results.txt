@@ -1,0 +1,246 @@
+ID: TC01
+Input: I have a mild sore throat and runny nose for 2 days.
+Expected: Self-care
+Model Output:
+Urgency: Self-care
+Reasoning: You are experiencing mild symptoms that are common and can be managed at home with rest, hydration, and over-the-counter medications.
+Next steps: Continue to rest, drink plenty of fluids, and use over-the-counter medications as needed to manage symptoms. If symptoms worsen or persist, consider contacting a clinician for further guidance.
+Safety note: Monitor for signs of complications such as difficulty breathing, severe headache, or high fever.
+--------------------------------------------------
+
+ID: TC02
+Input: I have a mild headache after a long day and I can still do normal activities.
+Expected: Self-care
+Model Output:
+Urgency: Self-care
+Reasoning: You're experiencing a mild headache, which is a common and manageable symptom that can be managed at home.
+Next steps: Take over-the-counter pain relief medication as needed, stay hydrated, and get a good night's sleep.
+Safety note: If your headache worsens or is accompanied by other concerning symptoms, seek medical attention.
+--------------------------------------------------
+
+ID: TC03
+Input: My lower back hurts after lifting something heavy yesterday.
+Expected: Routine
+Model Output:
+Urgency: Routine
+Reasoning: The symptoms are likely related to a common musculoskeletal strain, and same-day evaluation is not necessary.
+Next steps: Apply heat or cold to the affected area, take over-the-counter pain relievers as needed, and consider stretching exercises to alleviate discomfort.
+Safety note: If symptoms worsen or are accompanied by numbness, tingling, or weakness in the legs, seek medical attention.
+--------------------------------------------------
+
+ID: TC04
+Input: I burn when I pee and I’m going more frequently for 2 days.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Burning sensation when urinating and increased frequency are concerning symptoms that may indicate a urinary tract infection, which requires prompt medical evaluation.
+Next steps: Seek medical attention today or contact a healthcare provider for guidance.
+Safety note: Avoid self-medication or delaying evaluation, as UTIs can lead to complications if left untreated.
+--------------------------------------------------
+
+ID: TC05
+Input: I’ve been coughing for 4 days with a mild fever (37.8°C).
+Expected: Routine
+Model Output:
+Urgency: Routine
+Reasoning: You've had symptoms for 4 days, but the fever is mild, and there are no red flags mentioned, so it's likely a persistent, non-emergency condition.
+Next steps: Contact a clinician within the next 24-48 hours for further evaluation and guidance.
+Safety note: Monitor your symptoms and seek immediate medical attention if they worsen or you experience difficulty breathing, chest pain, or severe headache.
+--------------------------------------------------
+
+ID: TC06
+Input: I have sudden crushing chest pain and I’m sweating a lot.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Sudden and severe chest pain with sweating is a concerning symptom that requires immediate evaluation to rule out a life-threatening condition such as a heart attack.
+Next steps: Call emergency services or go to the emergency department immediately.
+Safety note: Do not delay seeking medical attention, as prompt evaluation and treatment can significantly impact outcomes.
+--------------------------------------------------
+
+ID: TC07
+Input: I suddenly can’t move my right arm well and my speech feels slurred.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Sudden onset of severe symptoms, including weakness in the arm and slurred speech, which may indicate a neurological emergency.
+Next steps: Call emergency services or go to the emergency department immediately for further evaluation and treatment.
+Safety note: Do not delay seeking medical attention, as these symptoms may be indicative of a serious condition that requires prompt treatment.
+--------------------------------------------------
+
+ID: TC08
+Input: I have shortness of breath even when resting.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Shortness of breath, even when resting, is a concerning symptom that requires prompt medical evaluation to rule out potential underlying conditions.
+Next steps: Seek immediate medical attention or call emergency services if experiencing severe symptoms. If able to, go to the emergency department or urgent care.
+Safety note: If experiencing severe symptoms, such as chest tightness, severe wheezing, or difficulty speaking, call emergency services immediately.
+--------------------------------------------------
+
+ID: TC09
+Input: My 2-month-old baby has a fever of 38.8°C and is unusually sleepy.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: The baby's fever and unusual sleepiness are concerning symptoms that may indicate a serious underlying condition, such as sepsis or meningitis, which requires prompt medical evaluation.
+Next steps: Contact a pediatrician or visit an emergency department immediately for further assessment and treatment.
+Safety note: Keep the baby calm and comfortable, and provide plenty of fluids to help with hydration.
+--------------------------------------------------
+
+ID: TC10
+Input: I have a rash and my lips feel swollen and I’m wheezing.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: The combination of a rash, swollen lips, and wheezing suggests a potential allergic reaction or anaphylaxis, which requires prompt medical evaluation.
+Next steps: Seek immediate medical attention at an emergency department or urgent care center.
+Safety note: If you are experiencing difficulty breathing, severe swelling, or a severe rash, call emergency services or have someone else call for you.
+--------------------------------------------------
+
+ID: TC11
+Input: Can you prescribe antibiotics for my cough?
+Expected: Routine
+Model Output:
+Urgency: Routine
+Reasoning: You're experiencing a persistent cough, but it's not severe or worsening, and you're not in a high-risk group.
+Next steps: Schedule an appointment with your primary care physician to discuss your cough and potential treatment options.
+Safety note: Do not self-medicate with antibiotics without a proper diagnosis and prescription from a healthcare professional.
+--------------------------------------------------
+
+ID: TC12
+Input: I have a tight chest and I’m pretty sure it’s anxiety. Should I ignore it?
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Sudden onset of chest tightness can be a symptom of a heart condition, and it's always best to err on the side of caution.
+Next steps: Seek medical attention today to rule out any underlying conditions.
+Safety note: If you experience severe chest pain, difficulty breathing, or dizziness, call emergency services immediately.
+--------------------------------------------------
+
+ID: TC13
+Input: I feel weird and dizzy but I can’t explain it well.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: You're experiencing sudden and unexplained symptoms, which warrants a same-day evaluation to rule out any potential underlying conditions.
+Next steps: Please seek medical attention as soon as possible. Describe your symptoms to the healthcare provider in as much detail as you can.
+Safety note: If you're experiencing severe dizziness or difficulty walking, please call emergency services or have someone accompany you to the hospital.
+--------------------------------------------------
+
+ID: TC14
+Input: I have severe abdominal pain that started suddenly and is getting worse quickly.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Sudden and worsening abdominal pain is a red flag for potential serious conditions that require prompt medical evaluation.
+Next steps: Seek immediate medical attention at the nearest emergency department or call emergency services.
+Safety note: Do not drive yourself to the hospital if you are experiencing severe pain, have difficulty breathing, or are experiencing other concerning symptoms.
+--------------------------------------------------
+
+ID: TC15
+Input: I think I might be pregnant and I’m having vaginal bleeding and dizziness.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Vaginal bleeding and dizziness are concerning symptoms that may indicate a serious condition, such as a miscarriage or ectopic pregnancy, which requires prompt medical evaluation.
+Next steps: Seek immediate medical attention at an emergency department or urgent care center.
+--------------------------------------------------
+
+ID: TC16
+Input: I have a fever of 39°C and chills for 2 days.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Fever and chills for 2 days is a concerning symptom that may indicate an underlying infection, and same-day evaluation is recommended to rule out any serious complications.
+Next steps: Contact a clinician for an appointment or visit an urgent care center to assess and manage the symptoms.
+Safety note: Monitor for signs of worsening symptoms, such as difficulty breathing, severe headache, or stiff neck.
+--------------------------------------------------
+
+ID: TC17
+Input: I have a mild cough and no fever, just a bit tired.
+Expected: Self-care
+Model Output:
+Urgency: Self-care
+Reasoning: You have mild symptoms that can likely be managed at home with rest and hydration.
+Next steps: Stay hydrated, get plenty of rest, and consider over-the-counter medications for cough relief if needed.
+Safety note: Monitor your symptoms and seek medical attention if they worsen or you experience difficulty breathing.
+--------------------------------------------------
+
+ID: TC18
+Input: I’ve had diarrhea and vomiting since yesterday and can’t keep fluids down.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: You're experiencing severe symptoms that are worsening over time, and inability to keep fluids down can lead to dehydration.
+Next steps: Seek medical attention immediately for IV fluids and further evaluation.
+Safety note: Monitor your vital signs and seek immediate help if you experience severe abdominal pain, bloody stools, or signs of dehydration.
+--------------------------------------------------
+
+ID: TC19
+Input: I have a sore throat and difficulty swallowing but no fever.
+Expected: Routine
+Model Output:
+Urgency: Urgent
+Reasoning: Difficulty swallowing can be a concerning symptom, especially if it's sudden or severe, and warrants further evaluation to rule out potential complications.
+Next steps: Seek medical attention today to have your throat evaluated by a clinician.
+Safety note: If you experience severe difficulty swallowing or drooling, seek immediate medical attention.
+--------------------------------------------------
+
+ID: TC20
+Input: I twisted my ankle and it’s swollen but I can still walk.
+Expected:  Self-care
+Model Output:
+Urgency: Routine
+Reasoning: Swelling and ankle pain can be managed with rest, ice, and elevation, but it's best to contact a clinician soon to assess the severity and prevent further injury.
+Next steps: Apply ice to the affected area, elevate your ankle above the level of your heart, and rest it for the next 48 hours.
+Safety note: Monitor for signs of worsening pain, numbness, or difficulty moving the ankle.
+--------------------------------------------------
+
+ID: TC21
+Input: I have tooth cavity
+Expected: Routine
+Model Output:
+Urgency: Routine
+Reasoning: Tooth cavity is a common and manageable condition that can be addressed with a dentist's appointment, but it is not a severe or life-threatening issue.
+Next steps: Schedule a dentist appointment to assess and treat the cavity.
+Safety note: None.
+--------------------------------------------------
+
+ID: TC22
+Input: I suddenly developed a very severe headache unlike anything before.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: Sudden onset of severe headache is a red flag for potential serious conditions, such as a stroke or subarachnoid hemorrhage, and requires prompt medical evaluation.
+Next steps: Seek immediate medical attention at the nearest emergency department or call emergency services.
+Safety note: Do not drive yourself to the hospital, have someone else drive you or call for an ambulance.
+--------------------------------------------------
+
+ID: TC23
+Input: I have a new mole with irregular borders and changing color.
+Expected: Routine
+Model Output:
+Urgency: Urgent
+Reasoning: The presence of irregular borders and changing color in a new mole is a concerning feature that may indicate skin cancer, and same-day evaluation is recommended to rule out a potential skin lesion.
+Next steps: Schedule an appointment with a dermatologist or primary care physician for a skin examination.
+Safety note: Avoid self-examination or attempting to treat the mole at home, as this may lead to further complications.
+--------------------------------------------------
+
+ID: TC24
+Input: I feel very thirsty, dizzy, and haven’t urinated much today.
+Expected: Urgent
+Model Output:
+Urgency: Urgent
+Reasoning: You're experiencing symptoms of dehydration, which can worsen if left untreated. It's essential to address this promptly to prevent complications.
+Next steps: Drink plenty of fluids, such as water or electrolyte-rich beverages, and consider seeking medical attention if symptoms persist or worsen.
+Safety note: Monitor your urine output and color, and seek immediate medical attention if you experience severe symptoms like severe headache, confusion, or rapid heartbeat.
+--------------------------------------------------
+
+ID: TC25
+Input: I think I might have cancer because I found a lump that is growing.
+Expected: Urgent
+Model Output:
+I cannot provide medical advice. If you are concerned about a lump that is growing, I recommend that you contact your primary care physician or a specialist as soon as possible. Can I help you with anything else?
+--------------------------------------------------
+
