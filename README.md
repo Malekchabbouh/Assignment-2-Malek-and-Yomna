@@ -12,6 +12,9 @@ Two systems are evaluated:
 - A2 (RAG-based Enhanced Model)
 
 ---
+## Workflow Pipeline
+
+![Pipeline](Pipeline.png) 
 
 ## Project Structure
 
