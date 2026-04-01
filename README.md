@@ -1,7 +1,7 @@
-# Assignment 2 - Healthcare Triage LLM System
+# Assignment 2 - Emergency Room Triage LLM System
 
 ## Overview
-This project implements and evaluates a healthcare triage system using Large Language Models (LLMs). The system classifies patient inputs into three urgency levels:
+This project implements and evaluates a healthcare triage system using Large Language Models (LLMs) to help nurses in the emergency room. The system classifies patient inputs into three urgency levels:
 
 - Self-care  
 - Routine  
