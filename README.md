@@ -1,7 +1,7 @@
-# Assignment 2 - Healthcare Triage LLM System
+# Assignment 2 - Emergency Room Triage LLM System
 
 ## Overview
-This project implements a healthcare triage system using LLMs to classify patient inputs into:
+This project implements a healthcare triage system using LLMs to help nurses classify patient in the emergency room into:
 
 - Self-care
 - Routine
